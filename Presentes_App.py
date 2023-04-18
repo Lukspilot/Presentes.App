@@ -35,49 +35,56 @@ while True:
         if opcion == 3:
             system("cls")
             print("Los francos de Silva Alex son:")
-            francos_Alex = ("Miercoles → 1", "Sabado → 4", "Jueves → 9", "Martes → 14", "Sabado → 18", "Domingo → 19", "Lunes → 27", "Martes → 28")
+            print("MARZO")
+            francos_Alex = ("Dia → 1", "Dia → 2", "Dia → 3", "Dia → 4", "Dia → 5", "Dia → 6", "Dia → 7", "Dia → 8")
             for elemento in francos_Alex:
                 print(elemento)
 
         if opcion == 4:
             system("cls")
             print("Los francos de Garcia Lucas son:")
-            francos_LucasG = ("Viernes → 3", "Martes → 7", "Sabado → 1", "Domingo → 12", "Jueves → 16", "Miercoles → 22", "Sabado → 25", "Martes → 28")
+            print("MARZO")
+            francos_LucasG = ("Dia → 1", "Dia → 2", "Dia → 3", "Dia → 4", "Dia → 5", "Dia → 6", "Dia → 7", "Dia → 8")
             for elemento in francos_LucasG:
                 print(elemento)
 
         if opcion == 5:
             system("cls")
             print("Los francos de Aguirre Emiliano son:")
-            francos_Emiliano = ("Jueves → 2", "Lunes → 6", "Sabado → 11", "Domingo → 12", "Lunes → 13", "Miercoles → 15", "Martes → 28", "Miercoles → 29")
+            print("MARZO")
+            francos_Emiliano = ("Dia → 1", "Dia → 2", "Dia → 3", "Dia → 4", "Dia → 5", "Dia → 6", "Dia → 7", "Dia → 8")
             for elemento in francos_Emiliano:
                 print(elemento)
 
         if opcion == 6:
             system("cls")
             print("Los francos de Hernandez Lucas son:")
-            francos_LucasH = ("Viernes → 3", "Miercoles → 8", "Miercoles → 15", "Sabado → 18", "Domingo → 19", "Jueves → 23", "Domingo → 26", "Martes → 28")
+            print("MARZO")
+            francos_LucasH = ("Dia → 1", "Dia → 2", "Dia → 3", "Dia → 4", "Dia → 5", "Dia → 6", "Dia → 7", "Dia → 8")
             for elemento in francos_LucasH:
                 print(elemento)
 
         if opcion == 7:
             system("cls")
             print("Los francos de Coria Carlos son:")
-            francos_Carlos = ("Sabado → 4", "Domingo → 5", "Miercoles → 8", "Lunes → 13", "Viernes → 17", "Sabado → 18", "Viernes → 24", "Lunes → 27")
+            print("MARZO")
+            francos_Carlos = ("Dia → 1", "Dia → 2", "Dia → 3", "Dia → 4", "Dia → 5", "Dia → 6", "Dia → 7", "Dia → 8")
             for elemento in francos_Carlos:
                 print(elemento)
 
         if opcion == 8:
             system("cls")
             print("Los francos de Rosales Leandro son:")
-            francos_Leandro = ("Viernes → 3", "Viernes → 10", "Lunes → 13", "Viernes → 17", "Domingo → 19", "Jueves → 23", "Sabado → 25", "Domingo → 26")
+            print("MARZO")
+            francos_Leandro = ("Dia → 1", "Dia → 2", "Dia → 3", "Dia → 4", "Dia → 5", "Dia → 6", "Dia → 7", "Dia → 8")
             for elemento in francos_Leandro:
                 print(elemento)
 
         if opcion == 9:
             system("cls")
             print("Los francos de Porres Lucas son:")
-            francos_LucasP = ("Domingo → 5," "Sabado → 11", "Domingo → 12", "Domingo → 19", "Lunes → 20", "Martes → 21", "Sabado → 25", "Domingo → 26")
+            print("MARZO")
+            francos_LucasP = ("Dia → 1", "Dia → 2", "Dia → 3", "Dia → 4", "Dia → 5", "Dia → 6", "Dia → 7", "Dia → 8")
             for elemento in francos_LucasP:
                 print(elemento)
 
@@ -96,49 +103,56 @@ while True:
 
         if apellido.lower() == "silva":
             print("Los francos de Silva Alex son:")
-            francos_Alex = ("Lunes → 1", "Martes → 2", "Miercoles → 3", "Jueves → 4", "Viernes → 5", "Sabado → 6", "Domingo → 7", "Lunes → 8")
+            print("MARZO")
+            francos_Alex = ("Dia → 1", "Dia → 2", "Dia → 3", "Dia → 4", "Dia → 5", "Dia → 6", "Dia → 7", "Dia → 8")
             for elemento in francos_Alex:
                 print(elemento)
             print(" ")
 
         elif apellido.lower() == "garcia":
             print("Los francos de Garcia son:")
-            francos_Lucas_G = ("Lunes → 1", "Martes → 2", "Miercoles → 3", "Jueves → 4", "Viernes → 5", "Sabado → 6", "Domingo → 7", "Lunes → 8")
+            print("MARZO")
+            francos_Lucas_G = ("Dia → 1", "Dia → 2", "Dia → 3", "Dia → 4", "Dia → 5", "Dia → 6", "Dia → 7", "Dia → 8")
             for elemento in francos_Lucas_G:
                 print(elemento)
             print(" ")
 
         elif apellido.lower() == "aguirre":
             print("Los francos de Aguirre  son:")
-            francos_Aguirre = ("Lunes → 1", "Martes → 2", "Miercoles → 3", "Jueves → 4", "Viernes → 5", "Sabado → 6", "Domingo → 7", "Lunes → 8")
+            print("MARZO")
+            francos_Aguirre = ("Dia → 1", "Dia → 2", "Dia → 3", "Dia → 4", "Dia → 5", "Dia → 6", "Dia → 7", "Dia → 8")
             for elemento in francos_Aguirre:
                 print(elemento)
             print(" ")
 
         elif apellido.lower() == "hernandez":
             print("Los francos de Hernandez  son:")
-            francos_Hernandez = ("Lunes → 1", "Martes → 2", "Miercoles → 3", "Jueves → 4", "Viernes → 5", "Sabado → 6", "Domingo → 7", "Lunes → 8")
+            print("MARZO")
+            francos_Hernandez = ("Dia → 1", "Dia → 2", "Dia → 3", "Dia → 4", "Dia → 5", "Dia → 6", "Dia → 7", "Dia → 8")
             for elemento in francos_Hernandez:
                 print(elemento)
             print(" ")
 
         elif apellido.lower() == "coria":
             print("Los francos de Coria  son:")
-            francos_Coria = ("Lunes → 1", "Martes → 2", "Miercoles → 3", "Jueves → 4", "Viernes → 5", "Sabado → 6", "Domingo → 7", "Lunes → 8")
+            print("MARZO")
+            francos_Coria = ("Dia → 1", "Dia → 2", "Dia → 3", "Dia → 4", "Dia → 5", "Dia → 6", "Dia → 7", "Dia → 8")
             for elemento in francos_Coria:
                 print(elemento)
             print(" ")
 
         elif apellido.lower() == "rosales":
             print("Los francos de Rosales  son:")
-            francos_Rosales = ("Lunes → 1", "Martes → 2", "Miercoles → 3", "Jueves → 4", "Viernes → 5", "Sabado → 6", "Domingo → 7", "Lunes → 8")
+            print("MARZO")
+            francos_Rosales = ("Dia → 1", "Dia → 2", "Dia → 3", "Dia → 4", "Dia → 5", "Dia → 6", "Dia → 7", "Dia → 8")
             for elemento in francos_Rosales:
                 print(elemento)
             print(" ")
 
         elif apellido.lower() == "porres":
             print("Los francos de Porres  son:")
-            francos_Porres = ("Lunes → 1", "Martes → 2", "Miercoles → 3", "Jueves → 4", "Viernes → 5", "Sabado → 6", "Domingo → 7", "Lunes → 8")
+            print("MARZO")
+            francos_Porres = ("Dia → 1", "Dia → 2", "Dia → 3", "Dia → 4", "Dia → 5", "Dia → 6", "Dia → 7", "Dia → 8")
             for elemento in francos_Porres:
                 print(elemento)
             print(" ")
